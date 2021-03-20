@@ -1,6 +1,5 @@
-# digital_garden
+# welcome
 
-123
+This is my digital garden.
 
-test
-test
+Feel free to look around.
