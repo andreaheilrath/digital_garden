@@ -1,3 +1,10 @@
+---
+title: welcome
+nav_order: 0
+permalink: /home/
+---
+
+
 # welcome
 
 This is my digital garden.
