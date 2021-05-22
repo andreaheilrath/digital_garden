@@ -1,6 +1,7 @@
 ---
 title: welcome
 nav_order: 0
+permalink: /digital_garden/
 ---
 
 
