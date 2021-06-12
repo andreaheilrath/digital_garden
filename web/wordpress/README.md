@@ -10,5 +10,7 @@ permalink: /web/wordpress/
 
 ## Responsive Design
 
-https://fantastech.co/artboard-and-container-widths-for-responsive-website-design/
-https://kinsta.com/de/blog/responsiven-webdesign/
+### References
+
+* https://fantastech.co/artboard-and-container-widths-for-responsive-website-design/
+* https://kinsta.com/de/blog/responsiven-webdesign/
