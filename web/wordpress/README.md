@@ -12,5 +12,12 @@ permalink: /web/wordpress/
 
 ### References
 
-* https://fantastech.co/artboard-and-container-widths-for-responsive-website-design/
-* https://kinsta.com/de/blog/responsiven-webdesign/
+* [Responsive Webdesign](https://kinsta.com/de/blog/responsiven-webdesign/)
+* [Container Widths](https://fantastech.co/artboard-and-container-widths-for-responsive-website-design/)
+
+## Fonts
+
+### References
+
+* [Best Readable Fonts](https://bforblogging.com/readable-best-google-fonts/)
+* [Best Google Fonts](www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html)
