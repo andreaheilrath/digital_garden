@@ -14,6 +14,7 @@ permalink: /web/wordpress/
 
 * [Responsive Webdesign](https://kinsta.com/de/blog/responsiven-webdesign/)
 * [Container Widths](https://fantastech.co/artboard-and-container-widths-for-responsive-website-design/)
+* [Breakpoints](https://www.dshg.eu/media-queries-breakpoints-fuer-responsives-webdesign-in-2021/)
 
 ## Fonts
 
