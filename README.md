@@ -10,3 +10,7 @@ permalink: /
 This is my digital garden.
 
 Feel free to look around.
+
+
+<img src="flowers_drawing.png" width="460em" align="center">
+
