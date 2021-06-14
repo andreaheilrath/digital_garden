@@ -1,5 +1,5 @@
 ---
 title: science denial
-parent: sci_com
+parent: sci com
 permalink: /science_denial/
 ---
