@@ -23,4 +23,7 @@ permalink: /science_denial/
 -> Backfire Effect
 
 
+https://www.nature.com/articles/s41562-019-0632-4
 
+
+(https://www.tandfonline.com/doi/full/10.1080/08870446.2019.1630561)
