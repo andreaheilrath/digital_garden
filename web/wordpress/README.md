@@ -1,6 +1,5 @@
 ---
 title: wordpress
-nav_order: 1
 parent: web
 permalink: /web/wordpress/
 ---
