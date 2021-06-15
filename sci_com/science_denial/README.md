@@ -41,8 +41,6 @@ topic rebuttal & technique rebuttal
 
 
 
-
-
-www.stonybrook.edu/aldacenter/
+[Alan Alda Center for Communicating Science](https://aldacenter.org)
 
 (https://www.tandfonline.com/doi/full/10.1080/08870446.2019.1630561)
