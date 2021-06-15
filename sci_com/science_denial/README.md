@@ -42,11 +42,6 @@ Example: If you're invited to have a public discussion with a science denier: if
 It's not only about the hard-core leading scince deniers, it's about (their) audience.
 
 
-General
-
-* [Alan Alda Center for Communicating Science](https://aldacenter.org)
-* [Yale Climate Communication](https://climatecommunication.yale.edu)
-
 Books
 * The Misinformation Age by Cailin O’Connor and James Owen Weatherall [online](https://yalebooks.yale.edu/book/9780300234015/misinformation-age)
 * The Debunking Handbook [online](https://skepticalscience.com/debunking-handbook-2020-downloads-translations.html)
