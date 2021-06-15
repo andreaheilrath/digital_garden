@@ -23,7 +23,8 @@ permalink: /science_denial/
 -> Backfire Effect
 
 
-https://www.nature.com/articles/s41562-019-0632-4
+Schmid, P., & Betsch, C. (2019). Effective strategies for rebutting science denialism in public discussions. Nature Human Behaviour, 3(9), 931-939.
+[online](https://www.nature.com/articles/s41562-019-0632-4)
 
 
 (https://www.tandfonline.com/doi/full/10.1080/08870446.2019.1630561)
