@@ -25,19 +25,27 @@ In older studies the Backfire Effect was *observed*, meaning that people confron
 
 Talking to scince deniers therefore never makes things worse - the worst thing to do is not talking to science deniers at all.
 
-First empirical evidence that one can fight back against science deniers and how to do it:
-
-Schmid, P., & Betsch, C. (2019). Effective strategies for rebutting science denialism in public discussions. Nature Human Behaviour, 3(9), 931-939.
-[online](https://www.nature.com/articles/s41562-019-0632-4)
-
-topic rebuttal & technique rebuttal
+First empirical evidence that one can fight back against science deniers and how to do it, see references \[1].
+As argued in the paper, there are two major ways: topic rebuttal & technique rebuttal.
 
 [Denialism](https://en.wikipedia.org/wiki/Denialism) mainly based onf five techniques:
 * Fake Experts
 * Logical Fallacies
 * Impossible Expectations
-* Cherry Picking
+* Cherry Picking Evidence
 * Conspiracy Theories
+
+A nice overview can be found in reference \[2]
+
+To debunk misinformation, it is not necessary to be an expert in the field. Knowing and showing the techniques of science denial can help (technique rebuttel).
+
+Using the techniques can only mitigate disinformation, they cannot overturn it. Once people are exposed to (mis)information, one cannot undo it. 
+
+Best thing: not allow the science denier to spread their information. 
+
+Example: If you're invited to have a public discussion with a science denier: if it will be cancelled when you go - don't- if it isn't - go!
+
+It's not only about the hard-core leading scince deniers, it's about (their) audience.
 
 
 General
@@ -54,5 +62,10 @@ Journalists
 
 Scientists
 * John Cook, Ullrich Ecker, Stephan Lewandowsky
+
+References
+* \[1] Schmid, P., & Betsch, C. (2019). Effective strategies for rebutting science denialism in public discussions. Nature Human Behaviour, 3(9), 931-939.
+[online](https://www.nature.com/articles/s41562-019-0632-4)
+* \[2] Cook, J. (2017, January). Understanding and countering climate science denial. In Journal and Proceedings of the Royal Society of New South Wales (Vol. 150, No. 465/466, pp. 207-219). [online](https://www.royalsoc.org.au/images/pdf/journal/150-2-Cook.pdf)
 
 (https://www.tandfonline.com/doi/full/10.1080/08870446.2019.1630561)
