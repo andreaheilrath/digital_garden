@@ -44,6 +44,7 @@ It's not only about the hard-core leading scince deniers, it's about (their) aud
 
 A nice overview can be found in reference \[2] and in this course about Science Denial from Columbia College [online](https://columbiacollege-ca.libguides.com/c.php?g=718457&p=5130008)
 
+All anecdotal references McIntyre had, showed that to change their mind, personal interaction and trust are essential. 
 
 
 
