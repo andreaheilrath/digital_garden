@@ -9,4 +9,4 @@ permalink: /web/
 
 ## Fonts
 
-* The Typewolf](https://www.typewolf.com)
+* [The Typewolf](https://www.typewolf.com)
