@@ -45,7 +45,9 @@ It's not only about the hard-core leading scince deniers, it's about (their) aud
 A nice overview can be found in reference \[2] and in this course about Science Denial from Columbia College [online](https://columbiacollege-ca.libguides.com/c.php?g=718457&p=5130008)
 
 All anecdotal references McIntyre had, showed that to change their mind, personal interaction and trust are essential. 
+[I Used to Be An Anti-Vaxxer. Here’s What Changed My Mind.](https://www.self.com/story/from-anti-to-pro-vaccine)
 
+Beliefs are often not based on evidence, but go with intentity, religion, ...
 
 
 ### Scientific References
