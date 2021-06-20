@@ -49,6 +49,8 @@ All anecdotal references McIntyre had, showed that to change their mind, persona
 
 Beliefs are often not based on evidence, but go with intentity, religion, ...
 
+Bruce Sherwood made a 3D model of Flat Earth [here](https://brucesherwood.net/?p=420).
+
 
 ### Scientific References
 * \[1] Schmid, P., & Betsch, C. (2019). Effective strategies for rebutting science denialism in public discussions. Nature Human Behaviour, 3(9), 931-939.
