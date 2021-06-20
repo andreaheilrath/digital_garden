@@ -1,0 +1,5 @@
+---
+title: general
+parent: sci com
+permalink: /science_denial/general
+---
