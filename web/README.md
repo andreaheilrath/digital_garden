@@ -9,4 +9,6 @@ permalink: /web/
 
 ## Fonts
 
+* [Fonts in the Wild](www.fontsinthewild.com)
+* [Fonts in Use](https://fontsinuse.com)
 * [The Typewolf](https://www.typewolf.com)
