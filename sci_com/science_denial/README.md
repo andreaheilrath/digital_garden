@@ -61,6 +61,14 @@ Bruce Sherwood made a 3D model of Flat Earth [here](https://brucesherwood.net/?p
 
 ### Other Refs
 
+#### Papers
+* Rosenau, J. (2012). Science denial: A guide for scientists. *Trends in microbiology*, 20(12), 567-569. [online](https://doi.org/10.1016/j.tim.2012.10.002)
+
+#### Articles
+
+* To Understand How Science Denial Works, Look to History, *Scientific American*, 22.07.2021 [online](https://www.scientificamerican.com/article/to-understand-how-science-denial-works-look-to-history/)
+* Science denial: Why it happens and 5 things you can do about it, *The Conversation*, 22.07.2021 [online](https://theconversation.com/science-denial-why-it-happens-and-5-things-you-can-do-about-it-161713)
+
 #### Books
 * The Misinformation Age by Cailin O’Connor and James Owen Weatherall [online](https://yalebooks.yale.edu/book/9780300234015/misinformation-age)
 * The Debunking Handbook [online](https://skepticalscience.com/debunking-handbook-2020-downloads-translations.html)
