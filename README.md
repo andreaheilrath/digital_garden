@@ -14,5 +14,6 @@ Feel free to look around.
 
 <img src="flowers_drawing.png" width="460em" align="center">
 
-<iframe src="https://preview.p5js.org/andreaheilrath/embed/MNoA9qN9n"></iframe>
+<iframe src="https://preview.p5js.org/andreaheilrath/embed/MNoA9qN9n" frameborder="0" border="0" cellspacing="0"
+        style="border-style: none;width: 100%; height: 120px;"></iframe>
 
