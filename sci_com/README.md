@@ -12,6 +12,12 @@ permalink: /sci_com/
 * [Alan Alda Center for Communicating Science](https://aldacenter.org/)
 * [Yale Climate Communication](https://climatecommunication.yale.edu/)
 
+## Communicators
+
+* [Experimental Stage Project](https://guerillascience.org)
+* [Guerilla Science](https://guerillascience.org)
+
+
 ## Scientific Journals
 
 * [JCom - Journal of Science Communication](https://jcom.sissa.it)
