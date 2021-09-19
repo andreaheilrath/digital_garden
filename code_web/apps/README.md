@@ -1,7 +1,7 @@
 ---
 title: apps
-parent: web
-permalink: /web/apps/
+parent: coding & web
+permalink: /code_web/apps/
 ---
 
 # Web Apps
