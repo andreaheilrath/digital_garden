@@ -7,3 +7,6 @@ permalink: /music/neue_musik/
 
 
 # Neue Musik
+
+
+* [Christina Kubisch](http://www.christinakubisch.de)

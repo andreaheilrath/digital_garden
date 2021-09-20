@@ -1,0 +1,427 @@
+<patch appVersion="2.0.0">
+   <obj type="disp/chart b" uuid="d2bdf496f96ee521628490a038411210fbe29b15" name="chart_1" x="364" y="14">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/chart p" uuid="58f42040a894006a5f73ed8cb8d0bd45481b28cd" name="chart_2" x="532" y="14">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/dial b" uuid="9ffed04e6a3052d9001eda83bae7024cb6d17037" name="dial_2" x="294" y="42">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/dial p" uuid="44fd18b562e434b3230441681132dbeabb15cdc5" name="dial_1" x="462" y="42">
+      <params/>
+      <attribs/>
+   </obj>
+   <patchobj type="patch/object" uuid="53b04874696932f38aceaa168bd5d9efb743716d" name="keyb_1" x="14" y="140">
+      <params/>
+      <attribs/>
+      <object id="patch/object" uuid="53b04874696932f38aceaa168bd5d9efb743716d" sha="d2b06e818348b14523c68fd021077192860093c0">
+         <upgradeSha>b8deb97637e54be31fcb62e849e4fa406e72256e</upgradeSha>
+         <sDescription>Monophonic MIDI keyboard note input, gate, velocity and release velocity</sDescription>
+         <author>Johannes Taelman</author>
+         <license>BSD</license>
+         <helpPatch>midi_in.axh</helpPatch>
+         <inlets/>
+         <outlets>
+            <frac32.bipolar name="note" description="midi note number (-64..63)"/>
+            <bool32 name="gate" description="key pressed, no retrigger legato"/>
+            <bool32 name="gate2" description="key pressed, retrigger on legato"/>
+            <frac32.positive name="velocity" description="note-on velocity"/>
+            <frac32 name="releaseVelocity" description="note-off velocity"/>
+            <frac32buffer name="frequency" description=""/>
+            <frac32 name="amplitude" description=""/>
+         </outlets>
+         <displays/>
+         <params/>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[int8_t _note;
+int32_t _gate;
+int32_t _gate2;
+uint8_t _velo;
+uint8_t _rvelo;]]></code.declaration>
+         <code.init><![CDATA[_gate = 0;
+_note = 0;]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[outlet_note= _note<<21;
+outlet_gate= _gate;
+outlet_gate2= _gate2;
+_gate2 = _gate;
+outlet_velocity= _velo<<20;
+outlet_releaseVelocity= _rvelo<<20;]]></code.krate>
+         <code.srate><![CDATA[]]></code.srate>
+         <code.midihandler><![CDATA[if (port!=attr_midiport) return;
+if ((status == MIDI_NOTE_ON + attr_midichannel) && (data2)) {
+  _velo = data2;
+  _note = data1-65;
+  _gate = 1<<27;
+  _gate2 = 0;
+} else if (((status == MIDI_NOTE_ON + attr_midichannel) && (!data2))||
+          (status == MIDI_NOTE_OFF + attr_midichannel)) {
+  if (_note == data1-65) {
+    _rvelo = data2;
+    _gate = 0;
+  }
+} else if ((status == attr_midichannel + MIDI_CONTROL_CHANGE)&&(data1 == MIDI_C_ALL_NOTES_OFF)) {
+  _gate = 0;
+}]]></code.midihandler>
+      </object>
+   </patchobj>
+   <patchobj type="patch/object" uuid="6b958b82fafa8d61216203d28f9f0e4cd27fa2a6" name="pitch_hack" x="182" y="140">
+      <params/>
+      <attribs/>
+      <object id="pitch_hack" uuid="6b958b82fafa8d61216203d28f9f0e4cd27fa2a6" sha="1bffe2143076d9d67735f75abda79ef4c82db4ac">
+         <upgradeSha>61413e41a22dba4d3f6a4be145c06146934f7120</upgradeSha>
+         <author>Andrea Heilrath</author>
+         <license>BSD</license>
+         <helpPatch>math.axh</helpPatch>
+         <inlets>
+            <frac32.bipolar name="note" description="note"/>
+         </inlets>
+         <outlets>
+            <frac32.bipolar name="pitch" description="pitch"/>
+            <frac32.positive name="amp" description="amp"/>
+         </outlets>
+         <displays/>
+         <params/>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[float frequencies[12] = {220, 220, 220, 220, 440, 440, 440, 440, 880, 880, 880, 880};
+float amplitudes[12] = {0.2, 0.5, 0.8, 1.0, 0.2, 0.5, 0.8, 1.0, 0.2, 0.5, 0.8, 1.0};
+
+int semi_tone = 2097152;
+int ref_e4 = 134217728;
+int key = 0;
+
+int32_t freq2pitch(float freq){
+	return int32_t(2097152.0 * 12.0 * log2f(freq/329.63)); //reference pitch e4, 134217728
+}
+
+int32_t famp2intamp(float amp){
+	return int32_t(134217728*amp);
+}
+
+int determine_key (int input_pitch){
+ 	return ((input_pitch + 134217728) % (12 * 2097152)) / 2097152;
+}]]></code.declaration>
+         <code.init><![CDATA[]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[key = determine_key(inlet_note);
+outlet_pitch = freq2pitch(frequencies[key]);
+outlet_amp = famp2intamp(amplitudes[key]);]]></code.krate>
+         <code.srate><![CDATA[]]></code.srate>
+         <code.midihandler><![CDATA[]]></code.midihandler>
+      </object>
+   </patchobj>
+   <patchobj type="patch/object" uuid="98bd39fb828c392b28126d259cb5175e6f6ea34b" name="adsr_2" x="182" y="238">
+      <params>
+         <frac32.s.map name="a" value="0.0">
+            <modulators/>
+            <presets/>
+         </frac32.s.map>
+         <frac32.s.map name="d" value="-2.0">
+            <modulators/>
+            <presets/>
+         </frac32.s.map>
+         <frac32.u.map name="s" value="32.5">
+            <modulators/>
+            <presets/>
+         </frac32.u.map>
+         <frac32.s.map name="r" value="0.0">
+            <modulators/>
+            <presets/>
+         </frac32.s.map>
+      </params>
+      <attribs/>
+      <object id="patch/object" uuid="98bd39fb828c392b28126d259cb5175e6f6ea34b" sha="1f562efbdacf6ce50c72a52bef93223b46fed8e3">
+         <sDescription>Attack/decay/sustain/release envelope with modulation inputs</sDescription>
+         <author>Johannes Taelman</author>
+         <license>BSD</license>
+         <helpPatch>env.axh</helpPatch>
+         <inlets>
+            <bool32.risingfalling name="gate" description="gate"/>
+            <frac32.bipolar name="a" description="attack time modulation"/>
+            <frac32.bipolar name="d" description="decay time modulation"/>
+            <frac32.bipolar name="s" description="sustail level modulation"/>
+            <frac32.bipolar name="r" description="release time modulation"/>
+         </inlets>
+         <outlets>
+            <frac32.positive name="env" description="envelope output"/>
+         </outlets>
+         <displays/>
+         <params>
+            <frac32.s.map name="a">
+               <DefaultValue v="0.0"/>
+            </frac32.s.map>
+            <frac32.s.map name="d">
+               <DefaultValue v="0.0"/>
+            </frac32.s.map>
+            <frac32.u.map name="s">
+               <DefaultValue v="0.0"/>
+            </frac32.u.map>
+            <frac32.s.map name="r">
+               <DefaultValue v="0.0"/>
+            </frac32.s.map>
+         </params>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[int8_t stage;
+int ntrig;
+int32_t val;]]></code.declaration>
+         <code.init><![CDATA[stage = 0;
+ntrig = 0;
+val = 0;
+]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[if ((inlet_gate>0) && !ntrig) {
+   stage = 1;
+   ntrig = 1;
+}
+if (!(inlet_gate>0) && ntrig) {
+   stage = 0;
+   ntrig = 0;
+}
+if (stage == 0){
+   int32_t r1;
+   int32_t r2;
+   MTOF(- param_r - inlet_r, r1);
+   r1 = 0x7FFFFFFF - (r1 >> 2);
+   val = ___SMMUL(val,r1)<<1;
+} else if (stage == 1){
+   int32_t a;
+   MTOF(- param_a - inlet_a,a);
+   a = a >> 2;
+   val = val + a;
+   if (val<0) {
+      val =0x7FFFFFFF;
+      stage = 2;
+   }
+} else if (stage == 2) {
+   int32_t s = __USAT(param_s + inlet_s, 27);
+   int32_t d;
+   MTOF(- param_d - inlet_d, d);
+   d = 0x7FFFFFFF - (d >> 2);
+   val = (s<<4) + (___SMMUL(val - (s<<4),d)<<1);
+}
+outlet_env = val>>4;
+]]></code.krate>
+         <code.srate><![CDATA[]]></code.srate>
+         <code.midihandler><![CDATA[]]></code.midihandler>
+      </object>
+   </patchobj>
+   <obj type="drj/audio/stereo_vol" uuid="awc8867f01982911058927f531cc6a1e565a1054" name="stereo_vol_1" x="756" y="252">
+      <params>
+         <frac32.u.map name="volume" value="18.5">
+            <modulators/>
+            <presets/>
+         </frac32.u.map>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="audio/out stereo" uuid="a1ca7a567f535acc21055669829101d3ee7f0189" name="out_1" x="896" y="252">
+      <params/>
+      <attribs/>
+   </obj>
+   <patchobj type="patch/object" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_2" x="630" y="266">
+      <params/>
+      <attribs/>
+      <object id="vca_2" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" sha="c904cdd24d65968df2f5796e107db3747dd691a6">
+         <upgradeSha>6bbeaeb94e74091879965461ad0cb043f2e7f6cf</upgradeSha>
+         <sDescription>&quot;voltage controlled amplifier&quot;, multiplies v and a inputs, with linear interpolation from k- to s-rate</sDescription>
+         <author>Johannes Taelman</author>
+         <license>BSD</license>
+         <inlets>
+            <frac32 name="v" description="gain input"/>
+            <frac32buffer name="a" description="audio input"/>
+         </inlets>
+         <outlets>
+            <frac32buffer name="o" description="output"/>
+         </outlets>
+         <displays/>
+         <params/>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[int32_t prev;
+    int32_t step;]]></code.declaration>
+         <code.init><![CDATA[]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[step = (inlet_v - prev)>>4;
+   int32_t i = prev;
+   prev = inlet_v;]]></code.krate>
+         <code.srate><![CDATA[outlet_o =  ___SMMUL(inlet_a,i)<<5;
+   i += step;]]></code.srate>
+         <code.midihandler><![CDATA[]]></code.midihandler>
+      </object>
+   </patchobj>
+   <obj type="midi/in/monitor" uuid="b51863ca-6afa-4d29-acfd-c8c2fe06cb16" name="monitor_1" x="14" y="308">
+      <params>
+         <bool32.tgl name="ControlChange" value="0">
+            <presets/>
+         </bool32.tgl>
+         <bool32.tgl name="Note" value="1">
+            <presets/>
+         </bool32.tgl>
+         <bool32.tgl name="ProgramChange" value="0">
+            <presets/>
+         </bool32.tgl>
+         <bool32.tgl name="Bend" value="0">
+            <presets/>
+         </bool32.tgl>
+         <bool32.tgl name="PolyPressure" value="0">
+            <presets/>
+         </bool32.tgl>
+      </params>
+      <attribs/>
+   </obj>
+   <patchobj type="patch/object" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_1" x="518" y="322">
+      <params/>
+      <attribs/>
+      <object id="patch/object" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" sha="c904cdd24d65968df2f5796e107db3747dd691a6">
+         <upgradeSha>6bbeaeb94e74091879965461ad0cb043f2e7f6cf</upgradeSha>
+         <sDescription>&quot;voltage controlled amplifier&quot;, multiplies v and a inputs, with linear interpolation from k- to s-rate</sDescription>
+         <author>Johannes Taelman</author>
+         <license>BSD</license>
+         <inlets>
+            <frac32 name="v" description="gain input"/>
+            <frac32buffer name="a" description="audio input"/>
+         </inlets>
+         <outlets>
+            <frac32buffer name="o" description="output"/>
+         </outlets>
+         <displays/>
+         <params/>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[int32_t prev;
+int32_t step;]]></code.declaration>
+         <code.init><![CDATA[]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[step = (inlet_v - prev)>>4;
+   int32_t i = prev;
+   prev = inlet_v;]]></code.krate>
+         <code.srate><![CDATA[outlet_o =  ___SMMUL(inlet_a,i)<<5;
+   i += step;]]></code.srate>
+         <code.midihandler><![CDATA[]]></code.midihandler>
+      </object>
+   </patchobj>
+   <patchobj type="patch/object" uuid="6e094045cca76a9dbf7ebfa72e44e4700d2b3ba" name="sine_2" x="392" y="378">
+      <params>
+         <frac32.s.map name="pitch" value="0.0">
+            <modulators/>
+            <presets/>
+         </frac32.s.map>
+      </params>
+      <attribs/>
+      <object id="patch/object" uuid="6e094045cca76a9dbf7ebfa72e44e4700d2b3ba" sha="edec4a9d5f533ea748cd564ce8c69673dd78742f">
+         <sDescription>sine wave oscillator</sDescription>
+         <author>Johannes Taelman</author>
+         <license>BSD</license>
+         <helpPatch>osc.axh</helpPatch>
+         <inlets>
+            <frac32.bipolar name="pitch" description="pitch"/>
+            <frac32buffer name="freq" description="frequency"/>
+            <frac32buffer name="phase" description="phase"/>
+         </inlets>
+         <outlets>
+            <frac32buffer.bipolar name="wave" description="sine wave"/>
+         </outlets>
+         <displays/>
+         <params>
+            <frac32.s.map.pitch name="pitch" noLabel="true">
+               <DefaultValue v="0.0"/>
+            </frac32.s.map.pitch>
+         </params>
+         <attribs/>
+         <file-depends/>
+         <includes/>
+         <depends/>
+         <modules/>
+         <code.declaration><![CDATA[uint32_t Phase;]]></code.declaration>
+         <code.init><![CDATA[Phase = 0;]]></code.init>
+         <code.dispose><![CDATA[]]></code.dispose>
+         <code.krate><![CDATA[int32_t freq;
+   MTOFEXTENDED(param_pitch + inlet_pitch,freq);]]></code.krate>
+         <code.srate><![CDATA[Phase += freq + inlet_freq;
+int32_t r;
+int32_t p2 = Phase + (inlet_phase<<4);
+SINE2TINTERP(p2,r)
+outlet_wave= (r>>4);]]></code.srate>
+         <code.midihandler><![CDATA[]]></code.midihandler>
+      </object>
+   </patchobj>
+   <nets>
+      <net>
+         <source obj="stereo_vol_1" outlet="left"/>
+         <dest obj="out_1" inlet="left"/>
+      </net>
+      <net>
+         <source obj="adsr_2" outlet="env"/>
+         <dest obj="vca_1" inlet="v"/>
+      </net>
+      <net>
+         <source obj="vca_1" outlet="o"/>
+         <dest obj="vca_2" inlet="a"/>
+      </net>
+      <net>
+         <source obj="stereo_vol_1" outlet="right"/>
+         <dest obj="out_1" inlet="right"/>
+      </net>
+      <net>
+         <source obj="sine_2" outlet="wave"/>
+         <dest obj="vca_1" inlet="a"/>
+      </net>
+      <net>
+         <source obj="keyb_1" outlet="gate"/>
+         <dest obj="adsr_2" inlet="gate"/>
+      </net>
+      <net>
+         <source obj="pitch_hack" outlet="pitch"/>
+         <dest obj="sine_2" inlet="pitch"/>
+         <dest obj="dial_2" inlet="in"/>
+         <dest obj="chart_1" inlet="in"/>
+      </net>
+      <net>
+         <source obj="keyb_1" outlet="note"/>
+         <dest obj="pitch_hack" inlet="note"/>
+      </net>
+      <net>
+         <source obj="vca_2" outlet="o"/>
+         <dest obj="stereo_vol_1" inlet="left"/>
+         <dest obj="stereo_vol_1" inlet="right"/>
+      </net>
+      <net>
+         <source obj="pitch_hack" outlet="amp"/>
+         <dest obj="vca_2" inlet="v"/>
+         <dest obj="chart_2" inlet="in"/>
+         <dest obj="dial_1" inlet="in"/>
+      </net>
+   </nets>
+   <settings>
+      <subpatchmode>no</subpatchmode>
+   </settings>
+   <notes><![CDATA[]]></notes>
+   <windowPos>
+      <x>0</x>
+      <y>34</y>
+      <width>1366</width>
+      <height>734</height>
+   </windowPos>
+</patch>
