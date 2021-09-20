@@ -6,7 +6,10 @@ permalink: /teaching_learning/
 
 # Teaching and Learning
 
-## Resources
+## Tools
+
+* [Jupyter Lab](https://jupyterlab.readthedocs.io)
+## Institutes
 
 * [Teaching @EPFL](https://www.epfl.ch/education/teaching/)
 * [Innovation Space @TU/e](https://www.tue.nl/en/education/tue-innovation-space/)
