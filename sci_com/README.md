@@ -26,3 +26,6 @@ permalink: /sci_com/
 
 * [The SciCommer](https://thescicommer.substack.com)
 * [PSCI-COM](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=PSCI-COM)
+
+## @TU Berlin
+* [Transferwissenschaft](https://www.transferwissenschaft.de/2021/04/13/wissenschaftskommunikation/)
