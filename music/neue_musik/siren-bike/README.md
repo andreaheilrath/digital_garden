@@ -21,7 +21,7 @@ bicycle  instead of a rear wheel. The performer can then control the speed of th
 perforated plate and regulate the volume of various sounds that can be produced with 
 the plate via valves. The bicycle can be played like an instrument.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XEasKRGmYHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Presentations
@@ -30,19 +30,19 @@ the plate via valves. The bicycle can be played like an instrument.
 
 [LaborBeethoven2020 online](http://ausstellung.labor-beethoven-2020.de/andrea-heilrath-helmholtzsche-lochsirene/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XEasKRGmYHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Collaboration with Lina Posėčnaitė
 
-Lina composed a piece for the Siren Bike and accordion.
-Premiered 26.09.2020 Abschlusskonzert der Kompositionsresidenz 2020, Studienstiftung des deutschen Volkes
+Lina composed a piece for the Siren Bike and accordion. Premiered 26.09.2020, Abschlusskonzert der Kompositionsresidenz, Studienstiftung des deutschen Volkes.
 
 
 
-### Exhibition at Jahreskongress GMTH
+### Exhibition at 21. Jahreskongress der Gesellschaft für Musiktheorie (GMTH) - Tonsysteme und Stimmungen
 
 [Link zur Veranstaltung](https://www.gmth.de/veranstaltungen/jahreskongress.aspx)
 
-Planung für neue Lochscheiben:
+New Siren Disk
 - Shepard mit kleinen Sexten oder großen Terzen. (kleine sexte 2/5 2^16/12, c - as - e - c)
 - Intervalle: 4:5 Stanzung (Durterz, gemeinsames Vielfaches 20), 5:7 Stanzung (Tritonus, gemeinsames Vielfaches 35, nicht komplett nötig, aber interessant)
 - Akkorde/Dreiklänge: 4:5:6, evtl. auch 3:4:5
@@ -61,8 +61,7 @@ Planung für neue Lochscheiben:
 * [Diesis](https://musikwissenschaften.de/lexikon/d/diesis/)
 * [Enharmonik](https://musikwissenschaften.de/lexikon/e/enharmonik/)
 * [Naturseptime](https://de.wikipedia.org/wiki/Naturseptime)
-* [Tristan Akkord](https://de.wikipedia.org/wiki/Tristan-Akkord)
-* ([Martin Vogel](https://de.wikipedia.org/wiki/Martin_Vogel_(Musikwissenschaftler)))
+* [Tristan Akkord](https://de.wikipedia.org/wiki/Tristan-Akkord), ([Martin Vogel](https://de.wikipedia.org/wiki/Martin_Vogel_(Musikwissenschaftler)))
 * [Multiphonics](https://de.wikipedia.org/wiki/Multiphonics), [Lucas-Folge](https://de.wikipedia.org/wiki/Lucas-Folge)
 * [Gesualdo](https://de.wikipedia.org/wiki/Carlo_Gesualdo)
 * [Vicentino](https://de.wikipedia.org/wiki/Nicola_Vicentino): Man soll tun was möglich ist. Z. B. [Archicembalo](https://de.wikipedia.org/wiki/Archicembalo), Hauptwerk "L' antica musica ridotta alle moderna prattica, Rom 1555", Quelle der Musik ist das Instrument selbst. 
