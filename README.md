@@ -16,3 +16,6 @@ More about me on
 
 
 
+## Random: Hilarious Websites
+* [michealbach.de](https://michaelbach.de/ot/)
+* [bugman123.com](http://bugman123.com)
