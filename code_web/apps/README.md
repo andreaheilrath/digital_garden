@@ -8,6 +8,6 @@ permalink: /code_web/apps/
 
 ## Dash
 
-Interesting python framework for creating web apps. [https://dash.plotly.com](https://dash.plotly.com)
+Interesting python framework for creating web apps.\ [https://dash.plotly.com](https://dash.plotly.com)
 
-How to deploy a Dash app on [Heroku](https://www.heroku.com/home): [YouTube](https://youtu.be/b-M2KQ6_bM4)
+I did a small project about connections (links) on Wikipedia. You can find the app [here](https://wiki-network.herokuapp.com) and the code on [github](https://github.com/andreaheilrath/wiki-network).
