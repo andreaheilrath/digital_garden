@@ -1,6 +1,7 @@
 ---
 title: cymatics
 parent: neue musik
+grand_parent: music
 permalink: /music/neue_musik/cymatics
 ---
 
