@@ -10,6 +10,7 @@ I frequently run GLSL Shaders on Raspberry Pis, which can easly be done with the
 
 I have my onw collection [here](https://github.com/andreaheilrath/digital_garden/tree/main/code_web/shaders).
 
+<script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 <canvas class="glslCanvas" data-fragment-url=“./mandelbrot_pink.frag" width="500" height="500"></canvas>
 
 Unfortunately the graphics chip on the PI4 changed, so GLSLViewer is only working for Raspberry Pi 3 and lower.
