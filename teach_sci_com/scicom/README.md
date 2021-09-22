@@ -10,7 +10,8 @@ permalink: /teach_sci_com/scicom
 
 ## Papers
 
-* Nisbet, M. C., & Scheufele, D. A. (2009). What's next for science communication? Promising directions and lingering distractions. American journal of botany [[online](https://doi.org/10.3732/ajb.0900041)]
+* Jensen, E. A., & Gerber, A. (2020). Evidence-based science communication. *Frontiers in Communication, 4,* 78. [https://doi.org/10.3389/fcomm.2019.00078](https://doi.org/10.3389/fcomm.2019.00078)
+* Nisbet, M. C., & Scheufele, D. A. (2009). What's next for science communication? Promising directions and lingering distractions. *American journal of botany, 96*(10), 1767-1778. [ https://doi.org/10.3732/ajb.0900041](https://doi.org/10.3732/ajb.0900041)
 
 ## People
 
