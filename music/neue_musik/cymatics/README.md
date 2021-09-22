@@ -9,8 +9,7 @@ permalink: /music/neue_musik/cymatics
 
 A project in cooperation with [Anda Kryeziu](http://www.andakryeziu.com) and [Justin Robinson](http://justinrobinson.de).
 
-
-**[Video on YT](https://youtu.be/BeqCDeWwk2w)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BeqCDeWwk2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## BHVN Feb2019 - CONCERT
 
