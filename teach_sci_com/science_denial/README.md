@@ -1,7 +1,7 @@
 ---
 title: science denial
-parent: sci com
-permalink: /science_denial/
+parent: teaching & sci.com
+permalink: /teach_sci_com/science_denial/
 ---
 
 
@@ -60,9 +60,9 @@ When you know something about the field, you can provide some scientific informa
 
 ## Misinfomation Cannot be Undone
 
-Using the techniques can only mitigate disinformation, they cannot overturn it. Once people are exposed to (mis)information, one cannot undo it. 
+Using the techniques can only mitigate disinformation, they cannot overturn it. Once people are exposed to (mis)information, one cannot undo it.
 
-The best thing is not allow the science denier to spread their information. 
+The best thing is not allow the science denier to spread their information.
 
 Example: If you're invited to have a public discussion with a science denier: if it will be cancelled when you go - don't- if it isn't - go!
 

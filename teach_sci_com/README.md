@@ -1,16 +1,20 @@
 ---
-title: sci com
+title: teaching & sci.com
 has_children: true
-permalink: /sci_com/
+permalink: /teach_sci_com/
 ---
 
-# Science Communication
+# Teaching :: Science Communication
 
-
-## Organizations
+## SciCom Organizations
 
 * [Alan Alda Center for Communicating Science](https://aldacenter.org/)
 * [Yale Climate Communication](https://climatecommunication.yale.edu/)
+
+## Scientists
+
+* Prof. Christoph Kulgemeyer [physikdidaktik.com](https://physikdidaktik.com)
+
 
 ## Communicators
 
@@ -29,3 +33,13 @@ permalink: /sci_com/
 
 ## @TU Berlin
 * [Transferwissenschaft](https://www.transferwissenschaft.de/2021/04/13/wissenschaftskommunikation/)
+
+## Teaching in General
+
+* [Teaching @EPFL](https://www.epfl.ch/education/teaching/)
+* [Innovation Space @TU/e](https://www.tue.nl/en/education/tue-innovation-space/)
+* [Surrey Institute of Education](https://www.surrey.ac.uk/institute-of-education)
+
+## Tools
+
+* [Jupyter Lab](https://jupyterlab.readthedocs.io)

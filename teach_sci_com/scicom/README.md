@@ -1,7 +1,7 @@
 ---
-title: general
-parent: sci com
-permalink: /science_denial/general
+title: science communication
+parent: teaching & sci.com
+permalink: /teach_sci_com/scicom
 ---
 
 
@@ -20,5 +20,5 @@ permalink: /science_denial/general
 # Science of Science Communication
 
 *Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog.
-[Youtube](https://youtu.be/Bu8LCVuejSE), 
+[Youtube](https://youtu.be/Bu8LCVuejSE),
 [Veröffentlichung](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
