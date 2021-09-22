@@ -12,6 +12,10 @@ permalink: /science_denial/general
 
 * Nisbet, M. C., & Scheufele, D. A. (2009). What's next for science communication? Promising directions and lingering distractions. American journal of botany [[online](https://doi.org/10.3732/ajb.0900041)]
 
+## People
+
+* [Prof. Alexander Gerber](https://www.hochschule-rhein-waal.de/de/fakultaeten/technologie-und-bionik/organisation-und-oeffnungszeiten/professorinnen/prof-alexander-0)
+
 
 # Science of Science Communication
 
