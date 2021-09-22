@@ -6,11 +6,17 @@ permalink: /teaching_learning/
 
 # Teaching and Learning
 
-## Tools
+## People
+* Prof. Christoph Kulgemeyer [physikdidaktik.com](https://physikdidaktik.com)
 
-* [Jupyter Lab](https://jupyterlab.readthedocs.io)
+
 ## Institutes
 
 * [Teaching @EPFL](https://www.epfl.ch/education/teaching/)
 * [Innovation Space @TU/e](https://www.tue.nl/en/education/tue-innovation-space/)
 * [Surrey Institute of Education](https://www.surrey.ac.uk/institute-of-education)
+
+
+## Tools
+
+* [Jupyter Lab](https://jupyterlab.readthedocs.io)
