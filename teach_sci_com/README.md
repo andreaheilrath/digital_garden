@@ -32,15 +32,6 @@ permalink: /teach_sci_com/
 * [PSCI-COM](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=PSCI-COM)
 
 ## @TU Berlin
-* [Transferwissenschaft](https://www.transferwissenschaft.de/2021/04/13/wissenschaftskommunikation/)
+* [Transferwissenschaft](https://www.transferwissenschaft.de/2021/04/13/wissenschaftskommunikation/) / [Prof. Henning Meyer](https://www.transferwissenschaft.de/team/prof-dr-henning-meyer/)
 * [Climate Change Center](https://www.climate-change.center)
 
-## Teaching in General
-
-* [Teaching @EPFL](https://www.epfl.ch/education/teaching/)
-* [Innovation Space @TU/e](https://www.tue.nl/en/education/tue-innovation-space/)
-* [Surrey Institute of Education](https://www.surrey.ac.uk/institute-of-education)
-
-## Tools
-
-* [Jupyter Lab](https://jupyterlab.readthedocs.io)
