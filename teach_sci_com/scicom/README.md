@@ -8,6 +8,12 @@ permalink: /teach_sci_com/scicom
 # Science Communication
 
 
+## SciCom Organizations
+
+* [Alan Alda Center for Communicating Science](https://aldacenter.org/)
+* [Yale Climate Communication](https://climatecommunication.yale.edu/)
+
+
 ## Papers
 
 * Jensen, E. A., & Gerber, A. (2020). Evidence-based science communication. *Frontiers in Communication, 4,* 78. [https://doi.org/10.3389/fcomm.2019.00078](https://doi.org/10.3389/fcomm.2019.00078)
@@ -26,5 +32,22 @@ permalink: /teach_sci_com/scicom
 * [Lifeology](https://lifeology.io/lifeology-univ-scicomm/), e.g. An Inclusive History of Science Communication [online](app.us.lifeology.io/viewer/lifeology/scicomm/a-brief-history-of-science-communication)
 * [Methods for Change](https://www.methodsforchange.org)
 
+## Communicators
+
+* [Experimental Stage Project](https://guerillascience.org)
+* [Guerilla Science](https://guerillascience.org)
+
+
+## Newsletters
+
+* [The SciCommer](https://thescicommer.substack.com)
+* [PSCI-COM](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A0=PSCI-COM)
+
+
+## Scientific Journals
+
+* [JCom - Journal of Science Communication](https://jcom.sissa.it)
+
 ## Current State
 *Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog. [online](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
+
