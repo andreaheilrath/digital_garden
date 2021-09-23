@@ -16,6 +16,10 @@ permalink: /teach_sci_com/
 * Prof. Christoph Kulgemeyer [physikdidaktik.com](https://physikdidaktik.com)
 
 
+## Books
+
+* [Handbuch Transdisziplinäre Didaktik](https://www.transcript-verlag.de/978-3-8376-5565-0/handbuch-transdisziplinaere-didaktik/)
+
 ## Communicators
 
 * [Experimental Stage Project](https://guerillascience.org)
