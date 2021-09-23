@@ -20,5 +20,11 @@ permalink: /teach_sci_com/scicom
 * Lauren Kuehne, Ecologist, [homepage](https://laurenkuehne.wordpress.com)
 * Prof. Christoph Kugelmeyer, Physics Education, [physikdidaktik.com](https://physikdidaktik.com)
 
+## Websites / Resources
+
+* [Evidence-Based Science Communication](https://sciencecomm.science)
+* [Lifeology](https://lifeology.io/lifeology-univ-scicomm/), e.g. An Inclusive History of Science Communication [online](app.us.lifeology.io/viewer/lifeology/scicomm/a-brief-history-of-science-communication)
+* [Methods for Change](https://www.methodsforchange.org)
+
 ## Current State
 *Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog. [online](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
