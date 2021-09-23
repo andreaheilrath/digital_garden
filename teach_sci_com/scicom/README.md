@@ -5,7 +5,7 @@ permalink: /teach_sci_com/scicom
 ---
 
 
-# General Resources about Science Communication
+# Science Communication
 
 
 ## Papers
@@ -15,11 +15,8 @@ permalink: /teach_sci_com/scicom
 
 ## People
 
-* [Prof. Alexander Gerber](https://www.hochschule-rhein-waal.de/de/fakultaeten/technologie-und-bionik/organisation-und-oeffnungszeiten/professorinnen/prof-alexander-0)
+* Eric A. Jensen, [Warwick University](https://warwick.ac.uk/fac/soc/sociology/staff/jensen/), Sigmund Freud Universität Berlin, [Viral Communication](https://www.viralcomm.info/de/das-team/dr-eric-jensen/)
+* Prof. Alexander Gerber [Hochschule Rhein-Waal](https://www.hochschule-rhein-waal.de/de/fakultaeten/technologie-und-bionik/organisation-und-oeffnungszeiten/professorinnen/prof-alexander-0)
 
-
-# Science of Science Communication
-
-*Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog.
-[Youtube](https://youtu.be/Bu8LCVuejSE),
-[Veröffentlichung](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
+## Current State
+*Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog. [online](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
