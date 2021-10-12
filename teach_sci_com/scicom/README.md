@@ -31,6 +31,7 @@ permalink: /teach_sci_com/scicom
 * [Evidence-Based Science Communication](https://sciencecomm.science)
 * [Lifeology](https://lifeology.io/lifeology-univ-scicomm/), e.g. An Inclusive History of Science Communication [online](app.us.lifeology.io/viewer/lifeology/scicomm/a-brief-history-of-science-communication)
 * [Methods for Change](https://www.methodsforchange.org)
+* [12 Examples of Stunning Science Communication](https://shorthand.com/the-craft/12-examples-of-stunning-science-comms/)
 
 ## Communicators
 
