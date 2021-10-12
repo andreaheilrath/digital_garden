@@ -47,6 +47,7 @@ permalink: /teach_sci_com/scicom
 ## Scientific Journals
 
 * [JCom - Journal of Science Communication](https://jcom.sissa.it)
+* [Frontiers in Communication](https://www.frontiersin.org/journals/communication)
 
 ## Current State
 *Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog. [online](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
