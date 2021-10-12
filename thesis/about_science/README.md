@@ -15,3 +15,12 @@ permalink: /thesis/about_science
 ## Readings
 
 * The Relativity of Wrong by Asaac Asimov, [online](https://skepticalinquirer.org/1989/10/the-relativity-of-wrong/)
+
+## Journals
+
+* [Science](https://www.science.org/)
+* [Nature](https://www.nature.com/)
+
+## Databases
+
+* [Web of Science](https://webofscience.com/)
