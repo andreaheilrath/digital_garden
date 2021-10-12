@@ -1,5 +1,5 @@
 ---
-title: About Science
+title: about science
 parent: thesis
 permalink: /thesis/about_science
 ---
