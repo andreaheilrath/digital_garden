@@ -14,4 +14,5 @@ permalink: /thesis/art_science
 
 ## Journals
 
-* w/k - Zwischen Wissenschaft und Kunst [online](https://wissenschaft-kunst.de/)
+* [w/k - Zwischen Wissenschaft und Kunst](https://wissenschaft-kunst.de/)
+* [Art/Research International](https://journals.library.ualberta.ca/ari)
