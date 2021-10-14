@@ -21,6 +21,7 @@ permalink: /teach_sci_com/scicom
 
 ## People
 
+* Matthew C. Nisbet, Prof. for Communication. [Northeastern Univeristy](https://camd.northeastern.edu/faculty/matthew-c-nisbet/)
 * Eric A. Jensen, Sociologist, [Warwick University](https://warwick.ac.uk/fac/soc/sociology/staff/jensen/), Sigmund Freud Universität Berlin, [Viral Communication](https://www.viralcomm.info/de/das-team/dr-eric-jensen/)
 * Prof. Alexander Gerber, Information Science [Hochschule Rhein-Waal](https://www.hochschule-rhein-waal.de/de/fakultaeten/technologie-und-bionik/organisation-und-oeffnungszeiten/professorinnen/prof-alexander-0)
 * Lauren Kuehne, Ecologist, [homepage](https://laurenkuehne.wordpress.com)
