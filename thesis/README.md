@@ -8,6 +8,12 @@ permalink: /thesis/
 
 Here I collect notes for my PhD Thesis.
 
+## Possible Supervisors
+
+* Prof. Birgit Kanngießer
+* Prof. Liudger Dienel
+* Prof. Albert Lang
+
 
 ## Possible Collaborations
 
