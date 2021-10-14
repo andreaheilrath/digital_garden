@@ -1,7 +1,7 @@
 ---
-title: about science
+title: science
 parent: thesis
-permalink: /thesis/about_science
+permalink: /thesis/science
 ---
 
 # What is Science?
@@ -34,7 +34,8 @@ permalink: /thesis/about_science
 
 ## Scientists 
 * [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter)
-* 
+
+
 ## Databases
 
 * [Web of Science](https://webofscience.com/)
