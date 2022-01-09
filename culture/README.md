@@ -1,7 +1,7 @@
 ---
-title: art & culture
+title: culture
 has_children: true
-permalink: /art_culture/
+permalink: /culture/
 ---
 
 # Art and Culture

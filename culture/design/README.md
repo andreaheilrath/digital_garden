@@ -1,7 +1,7 @@
 ---
 title: design
-parent: art_culture
-permalink: /art_culture/design
+parent: culture
+permalink: /culture/design/
 ---
 
 

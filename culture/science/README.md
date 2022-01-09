@@ -1,7 +1,7 @@
 ---
 title: science
-parent: art_culture
-permalink: /art_culture/science
+parent: culture
+permalink: /culture/science/
 ---
 
 # What is Science?

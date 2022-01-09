@@ -1,7 +1,7 @@
 ---
-title: art + science
-parent: art_culture
-permalink: /art_culture/art_science/
+title: sciart
+parent: culture
+permalink: /culture/sciart/
 ---
 
 # Art + Science
