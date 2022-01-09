@@ -1,10 +1,10 @@
 ---
-title: sciart
+title: art
 parent: culture
-permalink: /culture/sciart/
+permalink: /culture/art/
 ---
 
-# Art + Science
+# Art (+ Science)
 
 
 ## Artists

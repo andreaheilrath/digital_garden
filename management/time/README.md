@@ -1,12 +1,10 @@
 ---
-title: (self) management
-has_children: true
-permalink: /self-management/
+title: time
+parent: management
+permalink: /management/time/
 ---
 
-# (Self) Management
-
-## Time-Management
+# Time-Management
 
 **Time is the most valuable resource.**
 
@@ -34,7 +32,7 @@ Tools: Done-List, Success Diary, Reward List, Success Team
 
 ### Work Efficiency
 
-- Be aware of your chrono type! Test it [here](https://thepowerofwhenquiz.com) [und da](https://www.fitforfun.de/gesundheit/chronotyp/test-welcher-chronotyp-bist-du-295871.html). 
+- Be aware of your chrono type! Test it [here](https://thepowerofwhenquiz.com) [und da](https://www.fitforfun.de/gesundheit/chronotyp/test-welcher-chronotyp-bist-du-295871.html).
 - Find out more about your circadian rhythm type [here](circadian rhythm type).
 - Be aware how the menstrual cycle affects you. Watch [This is Your Period in 2 Minutes](https://www.youtube.com/watch?v=WOi2Bwvp6hw)
 
@@ -71,12 +69,11 @@ Take days off!!\
 
 ### Delegate
 
-How important is something? Who could do it? 
-How much time does it cost to delegate it vs. doing it myself? 
-Can someone else explain the task? 
+How important is something? Who could do it?
+How much time does it cost to delegate it vs. doing it myself?
+Can someone else explain the task?
 Is it good to have a guidline for this task?
 
 Make the task clear. Set a deadline. Find the right person. Talk about the process.
 Have time for feedback and corrections. Support the person. Communicate the team that he/she has the responsibility for the task.
 Appreciate their work!!
-
