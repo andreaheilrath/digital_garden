@@ -1,7 +1,7 @@
 ---
 title: science denial
-parent: teaching & sci.com
-permalink: /teach_sci_com/science_denial/
+parent: transfer
+permalink: /transfer/science_denial/
 ---
 
 

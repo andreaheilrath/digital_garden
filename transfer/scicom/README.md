@@ -1,7 +1,7 @@
 ---
-title: science communication
-parent: teaching & sci.com
-permalink: /teach_sci_com/scicom
+title: scicom
+parent: transfer
+permalink: /transfer/scicom
 ---
 
 
@@ -53,4 +53,3 @@ permalink: /teach_sci_com/scicom
 
 ## Current State
 *Wissenschaftskommunikation in Deuschland Ergebnisse einer Befragung unter Wissenschaftler:innen* (2021). Impact Unit - Wissenschaft im Dialog. [online](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/2021_WisskommBefragung_Ergebnisbroschuere_WiD_DZHW_NaWik.pdf)
-

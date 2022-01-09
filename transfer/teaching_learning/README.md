@@ -1,7 +1,7 @@
 ---
 title: teaching & learning
-parent: teaching & sci.com
-permalink: /teach_sci_com/teaching_learning
+parent: transfer
+permalink: /transfer/teaching_learning
 ---
 
 # Teaching and Learning
