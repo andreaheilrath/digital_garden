@@ -1,7 +1,7 @@
 ---
 title: design
-parent: thesis
-permalink: /thesis/design
+parent: art_culture
+permalink: /art_culture/design
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: science
-parent: thesis
-permalink: /thesis/science
+parent: art_culture
+permalink: /art_culture/science
 ---
 
 # What is Science?
@@ -10,7 +10,7 @@ permalink: /thesis/science
 
 * *The Process of Science* on [Visionlearning](https://www.visionlearning.com/en/library/Process-of-Science/), also [Teaching the Process of Science](https://serc.carleton.edu/sp/process_of_science)
 * [Understanding Science](https://undsci.berkeley.edu/), Berkeley, University of California, also [Misconceptions about Science](https://undsci.berkeley.edu/teaching/misconceptions.php)
-* 
+*
 
 ## Readings
 
@@ -32,7 +32,7 @@ permalink: /thesis/science
 
 * [American Association for the Advancement of Science](https://www.aaas.org/)
 
-## Scientists 
+## Scientists
 * [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter)
 
 
