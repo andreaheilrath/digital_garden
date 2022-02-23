@@ -8,14 +8,13 @@ permalink: /thesis/
 
 Here I collect notes for my PhD Thesis.
 
-## Possible Supervisors
+## Reading List
 
-* Prof. Birgit Kanngießer
-* Prof. Liudger Dienel
-* Prof. Albert Lang
-
-
-## Possible Collaborations
-
-* Sociology @TU Berlin, René Wilke, Prog. Knoblauch [online](https://www.as.tu-berlin.de/v_menue/mitarbeiterinnen/)
-* Transdisziplinäre Lehre @TU Berlin, Dr. Thorsten Philipp [online](https://www.tu-berlin.de/menue/einrichtungen/praesidium/projekte_des_praesidiums/transdisziplinaere_lehre/menue/transdisziplinaere_lehre/)
+* Bredekamp, H., Schneider, B., & Dünkel, V. (Eds.). (2012). *Das Technische Bild: Kompendium zu einer Stilgeschichte wissenschaftlicher Bilder. *Walter de Gruyter.
+* Hennig, J. (2014). *Bildpraxis: visuelle Strategien in der frühen Nanotechnologie.* transcript Verlag.
+* Renn, J. (2020). *The evolution of knowledge: Rethinking science for the Anthropocene.* Princeton University Press.
+* Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P., & Trow, M. (1994). *The new production of knowledge: The dynamics of science and research in contemporary societies.* sage.
+* Fleck, L. (1980). *Entstehung und Entwicklung einer wissenschaftlichen Tatsache: Einführung in die Lehre vom Denkstil und Denkkollektiv.*
+* Latour, B., & Woolgar, S. (2013). *Laboratory life.* Princeton University Press.
+* Haraway, D. J. (2016). *Staying with the Trouble.* Duke University Press.
+* Legacy Russell, *Glitch Feminism: A Manifesto*
