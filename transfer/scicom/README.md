@@ -34,6 +34,11 @@ permalink: /transfer/scicom
 * [Methods for Change](https://www.methodsforchange.org)
 * [12 Examples of Stunning Science Communication](https://shorthand.com/the-craft/12-examples-of-stunning-science-comms/)
 
+
+## Podcasts
+
+* [Zeit für WissKomm](https://zeit-fuer-wisskomm.podigee.io/)
+* 
 ## Communicators
 
 * [Experimental Stage Project](https://guerillascience.org)
