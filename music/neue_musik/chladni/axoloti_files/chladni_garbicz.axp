@@ -1,0 +1,66 @@
+<patch-1.0 appVersion="1.0.12">
+   <patchobj type="patch/object" uuid="0f5c2557-34c8-482d-a718-71d9f08240e7" name="object_1" x="938" y="154">
+      <params/>
+      <attribs/>
+      <object id="patch/object" uuid="0f5c2557-34c8-482d-a718-71d9f08240e7">
+         <inlets>
+            <frac32.bipolar name="note"/>
+         </inlets>
+         <outlets>
+            <frac32.bipolar name="pitch"/>
+            <frac32.positive name="amp"/>
+            <int32 name="key"/>
+         </outlets>
+         <displays/>
+         <params/>
+         <attribs/>
+         <includes/>
+         <code.declaration><![CDATA[///////////////////////// 0 / 1  / 2   / 3   / 4   / 5   / 6  / 7   / 8  / 9  / 10  / 11 / 
+float frequencies[12] = {25,  32,  57 ,  97,   149,  233,  301, 319,  333, 407, 535,  594};
+float amplitudes[12] =  {0.7, 1.0, 0.4, 0.8,  1.0,  6.7,  3.5, 9.8,  6.0, 4.5,  1.5, 5.0};
+
+//int semi_tone = 2097152;
+//int ref_e4 = 134217728;
+
+int32_t equalOO;
+int32_t LOGARITHMIC;]]></code.declaration>
+         <code.init><![CDATA[///////////////////////// 0 / 1  / 2   / 3   / 4   / 5   / 6  / 7   / 8  / 9  / 10  / 11 / 
+float frequencies[12] = {25,  32,  57 ,  97,   149,  233,  301, 319,  333, 407, 535,  594};
+float amplitudes[12] =  {0.7, 1.0, 0.4, 0.8,  1.0,  6.7,  3.5, 9.8,  6.0, 4.5,  1.5, 5.0};
+
+//int semi_tone = 2097152;
+//int ref_e4 = 134217728;]]></code.init>
+         <code.krate><![CDATA[outlet_key = ((inlet_note + 134217728) % (12 * 2097152)) / 2097152;
+
+
+Float_t f;
+
+f.f = frequencies[outlet_key]/329.63;
+int32_t r1 = ((f.parts.exponent&0x7F)-18) << 24;
+int32_t r3 = logt[f.parts.mantissa>>15]<<10;
+LOGARITHMIC = r1 + r3;
+
+// Turns the loga signal off when 0. Fix the problem //
+
+equalOO= (frequencies[outlet_key]/329.63) == 0;
+
+
+outlet_pitch = int32_t(2097152.0 * 12.0) * LOGARITHMIC;  //((equalOO)?0:LOGARITHMIC)); //reference pitch e4, 134217728
+
+//outlet_pitch = int32_t(80177280);
+
+outlet_amp = int32_t(134217728*amplitudes[outlet_key]);]]></code.krate>
+      </object>
+   </patchobj>
+   <nets/>
+   <settings>
+      <subpatchmode>no</subpatchmode>
+   </settings>
+   <notes><![CDATA[]]></notes>
+   <windowPos>
+      <x>-8</x>
+      <y>-8</y>
+      <width>1723</width>
+      <height>928</height>
+   </windowPos>
+</patch-1.0>
